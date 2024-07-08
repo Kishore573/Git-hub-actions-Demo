@@ -21,7 +21,7 @@ jobs:
     permissions: write-all
     env:  
        AWS_ACCESS_KEY_ID: ${{ secrets.Access-key }}
-       AWS_SECRET_ACCESS_KEY: ${{ Secret-Access-Key }}
+       AWS_SECRET_ACCESS_KEY: ${{ secrets.Secret-Access-Key }}
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
