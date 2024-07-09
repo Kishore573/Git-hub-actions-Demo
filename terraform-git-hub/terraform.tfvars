@@ -1,5 +1,5 @@
 instance_type = "t2.micro"
-region        = "us-east-1"
-subnet_id     = "subnet-010d0ab3cffb2c949"
-vpc_id        = "vpc-0a84aa4e628ac9117"
+region        = "ap-south-1"
+subnet_id     = "subnet-0c04fa6bdfc1f26ae"
+vpc_id        = "vpc-015def2d7128ba8f9"
 tag           = "DemoServer"
