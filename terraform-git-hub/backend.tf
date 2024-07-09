@@ -1,4 +1,4 @@
-# This is for remote backend
+
 terraform {
   backend "s3" {
     bucket         = "mydemo-tfstate1"
